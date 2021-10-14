@@ -21,3 +21,5 @@ getBaiDu方法访问百度接口
 getBaiDu('6903148094501', '矿泉水') # 固定测试
 getBaiDu(shop_id, shop_name)
 dowmloadPic方法里面的num_download变量设置下载图片数量
+
+requestShowApi方法是访问易源的接口(收费)
