@@ -10,9 +10,8 @@ python main.py
 主要看 readExcel 方法
 ```
 workBook = xlrd.open_workbook(path + '\\' + '商品列表.xls')
-```
-修改这行代码的 '商品列表.xls'
-```
+# 修改这行代码的 '商品列表.xls'
+
 # requestT1通过（tiaoma.cnaidc.com）查询商品信息
 # requestT1('6935284412918') # 固定测试
 requestT1(shop_id)
